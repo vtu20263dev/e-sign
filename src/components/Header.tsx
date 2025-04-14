@@ -41,7 +41,9 @@ const Header = ({ userName = "John Doe", userAvatar }: HeaderProps) => {
     <header className="w-full h-20 border-b border-gray-200 bg-white flex items-center justify-between px-6 shadow-sm">
       <div className="flex items-center gap-2">
         <FileSignature className="h-8 w-8 text-primary" />
-        <h1 className="text-2xl font-bold text-primary">eSignature Platform</h1>
+        <h1 className="text-2xl font-bold text-primary">
+          Virtue Tech eSignature Platform
+        </h1>
       </div>
 
       <div className="flex items-center gap-4">
